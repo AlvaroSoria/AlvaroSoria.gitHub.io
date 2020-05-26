@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="precios1.xsl" ?>
+<agendas>
+		<agenda>
+			<tipo>Infatil</tipo>
+			<precio>1.55</precio>
+			<personalizadas>si</personalizadas>
+			<precioP>0.2</precioP>
+			<imagen>../imagenesXml/foto1.jpg</imagen>
+			
+		</agenda>
+		<agenda>
+			<tipo>Primaria</tipo>
+			<precio>1.65</precio>
+			<personalizadas>si</personalizadas>
+			<precioP>0.27</precioP>
+			<imagen>../imagenesXml/primaria.jpg</imagen>
+
+		</agenda>
+		<agenda>
+			<tipo>Secundaria</tipo>
+			<precio>1.75</precio>
+			<personalizadas>si</personalizadas>
+			<precioP>0.4</precioP>
+			<imagen> ../imagenesXml/secundaria.jpg</imagen>
+
+		</agenda>
+		<agenda>
+			<tipo>Profesorado</tipo>
+			<precio>3.95</precio>
+			<personalizadas>no</personalizadas>
+			<precioP></precioP>
+			<imagen> ../imagenesXml/profesor.jpg</imagen>
+		</agenda>
+</agendas>

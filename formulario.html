@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Agendas Escolares</title>
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <script type="text/javascript" src="js/formulario.js"></script>
+</head>
+<body id="fondoFormulario">
+
+	<header>
+		<br><br>
+		<h1 id="cabecera">AGENDAS ESCOLARES</h1>
+		<nav>
+			<ul id=hor1>
+				<li id="hor"><a href="index.html">Inicio</a></li>
+				<li id="hor"><a href="infantil.html">Infantil</a></li>
+				<li id="hor"><a href="primaria.html">Primaria</a></li>
+				<li id="hor"><a href="secundaria.html">Secundaria</a></li>
+				<li id="hor"><a href="profesor.html">Profesor</a></li>
+				<li id="hor"><a href="">Otros</a>
+					<ul class="submenu">
+						<li><a href="videos.html">video</a></li>
+						<li><a href="xml/precios.xml">precios</a></li>
+						<li><a href="">registrate</a></li>
+					</ul>
+				</li>
+				</ul>
+		</nav>
+	</header>
+	
+	<div id="section1">
+		<aside id="left">
+			<ul id="ver1">
+				<li id="ver"><a href="index.html">Inicio</a></li>
+				<li id="ver"><a href="infantil.html">Infantil</a></li>
+				<li id="ver"><a href="primaria.html">Primaria</a></li>
+				<li id="ver"><a href="secundaria.html">Secundaria</a></li>
+				<li id="ver"><a href="profesor.html">Profesor</a></li>
+				<li id="ver"><a href="profesor.html">Otros</a>
+					<ul class="submenu">
+						<li><a href="videos.html">video</a></li>
+						<li><a href="xml/precios.xml">precios</a></li>
+						<li><a href="">registrate</a></li>
+					</ul>
+				</li>
+			</ul>	
+		</aside>
+    <center>
+    	<br><br><br>
+     <h1>Ingresa Tus Datos 
+</h1> 
+<form name="login"> 
+     <table width="200" border="0"> 
+       <tr> 
+         <th scope="row"><h2>Usuario</h2></th> 
+         <td><span class="cnt"> 
+           <input name="usuario" type="text" class="Input" value="" size="20" /> 
+         </span></td> 
+       </tr> 
+       <tr> 
+         <th height="33" scope="row"><h2>Clave</h2></th> 
+         <td><span class="cnt"> 
+           <input name="password" type="password" class="Input" value="" size="20" /> 
+         </span></td> 
+         <td><span class="cnt"> 
+           <input value="Entrar" target="_parent" onclick="Login()" type="button" class="boton"/> 
+         </span></td> 
+       </tr> 
+       <tr> 
+         <th scope="row"><input type="reset" name="Borrar" id="Borrar" value="Reset" class="boton" /></th> 
+       </tr> 
+     </table> 
+</form> 
+
+<script language="JavaScript"> 
+function Login(){ 
+var done=0; 
+var usuario=document.login.usuario.value; 
+var password=document.login.password.value; 
+if (usuario=="Alvaro" && password=="Aprobado"||usuario=="alvaro" && password=="aprobado") { 
+alert("Acceso concedido"); 
+window.location.assign(index.html)
+} else
+alert("Acceso denegado");
+
+} 
+        </script> 
+</center> 
+<script language="Javascript"> 
+Begin 
+document.oncontextmenu = function(){return false} 
+
+</script>
+ 
+    </center>
+
+
+	</div>
+ 
+
+</body>
+</html>

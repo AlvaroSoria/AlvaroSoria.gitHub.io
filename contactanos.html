@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Agendas Escolares</title>
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <script type="text/javascript">
+  	 function getData(){
+ 	var nombre = document.getElementById('nombre').value;
+ 	var email = document.getElementById('email').value;
+ 	var telefono = document.getElementById('telefono').value;
+ 	var direccion = document.getElementById('direccion').value;
+
+ 	document.form_reg.nombreObtenido.value = nombre;
+ 	document.form_reg.emailObtenido.value = email;
+ 	document.form_reg.telefonoObtenido.value = telefono;
+ 	document.form_reg.direccionObtenida.value = direccion;
+ }
+
+  </script>
+</head>
+<body id="fondoFormulario">
+
+	<header>
+		<br><br>
+		<h1 id="cabecera">AGENDAS ESCOLARES</h1>
+		<nav>
+			<ul id=hor1>
+				<li id="hor"><a href="index.html">Inicio</a></li>
+				<li id="hor"><a href="infantil.html">Infantil</a></li>
+				<li id="hor"><a href="primaria.html">Primaria</a></li>
+				<li id="hor"><a href="secundaria.html">Secundaria</a></li>
+				<li id="hor"><a href="profesor.html">Profesor</a></li>
+				<li id="hor"><a href="">Otros</a>
+					<ul class="submenu">
+						<li><a href="videos.html">video</a></li>
+						<li><a href="xml/precios.xml">precios</a></li>
+						<li><a href="">contáctanos</a></li>
+					</ul>
+				</li>
+				</ul>
+		</nav>
+	</header>
+	
+	<div id="section1">
+		<aside id="left">
+			<ul id="ver1">
+				<li id="ver"><a href="index.html">Inicio</a></li>
+				<li id="ver"><a href="infantil.html">Infantil</a></li>
+				<li id="ver"><a href="primaria.html">Primaria</a></li>
+				<li id="ver"><a href="secundaria.html">Secundaria</a></li>
+				<li id="ver"><a href="profesor.html">Profesor</a></li>
+				<li id="ver"><a href="profesor.html">Otros</a>
+					<ul class="submenu">
+						<li><a href="videos.html">video</a></li>
+						<li><a href="xml/precios.xml">precios</a></li>
+						<li><a href="">contáctanos</a></li>
+					</ul>
+				</li>
+			</ul>	
+		</aside>
+    <center>
+    	<br><br><br>
+    	<div id="container">
+    		<div id="form_top">
+    		 <h1>Contáctenos</h1> 
+ 			
+     <form id="form_reg" name="form_reg" action=""autofocus>
+     	<input type="text" id="nombre" placeholder="&#128100;Nombre" name="nombre" required>
+     	<input type="email" id="email" placeholder="&#9993;Email" name="email" required>
+     	<input type="text" id="telefono" placeholder="&#128222;Telefono" name="telefono" required>
+     	<input type="text" id="direccion" placeholder="&#8962;Direccion" name="direccion" required>
+     	<div id="btn_form">
+     		<td><input type="button" id="btn_submit" value="enviar" onclick="getData()"></td>
+     		<td><input type="button" id="btn_reset" value="limpiar" onclick="getData()"></td>
+     	</div>
+
+     
+
+     <table>
+     	
+     	<tr>
+     		<td>Nombre:</td><td><input type="text" name="nombreObtenido" id="nombreObtenido"></td>
+     	</tr>
+     	<tr>
+     		<td>Email</td><td><input type="text" name="emailObtenido" id="emailObtenido"></td>
+     	</tr>
+     	<tr>
+     		<td>Telefono</td><td><input type="text" name="telefonoObtenido" id="telefonoObtenido"></td>
+     	</tr>
+     	<tr>
+     		<td>Direccion: </td><td><input type="text" name="direccionObtenida" id="direccionObtenida"></td>
+     	</tr>
+
+     </table>
+
+     </form>
+</div>
+	</div>
+
+    </center>
+
+	</div>
+      <footer id="section2" align="center" >
+		<p><a href="contactanos.html">PROFESHOP BOOKS&GIFTS, S.L.(CONTACTE CON NOSOTROS)</a> C/grumete 12  - 28260 Galapagar (Madrid) | Diseñado por Álvaro.</p>
+ <p>
+ <a href="http://jigsaw.w3.org/css-validator/#validate_by_upload"><img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="¡CSS Válido!" /></a>
+ <a href="http://validator.w3.org/#validate_by_upload"><img style="border:0;width:88px;height:31px" src="http://www.w3.org/Icons/valid-xhtml10-blue" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+
+	</p>
+</footer>
+
+</body>
+</html>

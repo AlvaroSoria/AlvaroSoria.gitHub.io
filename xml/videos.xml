@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="precios1.xsl" ?>
+<videos>
+    <tabla>
+        <titulo></titulo>
+        <video>Infatil</video>
+        <descripcion>1.55</descripcion>
+    </tabla>
+    <tabla>
+        <titulo></titulo>
+        <video>Primaria</video>
+        <descripcion>1.65</descripcion>
+    </tabla>
+
+
+</videos>
